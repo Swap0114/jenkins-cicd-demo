@@ -147,16 +147,6 @@ A few things that stuck with me:
   than clicking through the Jenkins UI. It's version controlled,
   reviewable, and reproducible.
 
----
-
-## Project Structure
-jenkins-cicd-demo/
-├── index.js             Express app with two endpoints
-├── Jenkinsfile          The entire pipeline as code
-├── package.json         All dependencies properly saved
-└── tests/
-└── app.test.js      Unit tests for both endpoints
-
  Author
 
 Swaroop — DevOps Engineer 
