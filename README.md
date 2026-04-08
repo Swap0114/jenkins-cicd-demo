@@ -1,4 +1,4 @@
-# Jenkins CI/CD Pipeline — My First DevOps Project
+# Jenkins CI/CD Pipeline 
 
 I built this project to learn how CI/CD actually works in the real world.
 Not from a tutorial that goes perfectly — but by actually breaking things,
