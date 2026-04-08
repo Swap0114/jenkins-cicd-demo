@@ -1,0 +1,17 @@
+{
+  "name": "jenkins-cicd-demo",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --ci"
+  },
+  "jest": {
+    "reporters": [
+      "default",
+      ["jest-junit", {
+        "outputDirectory": "test-results",
+        "outputName": "results.xml"
+      }]
+    ]
+  }
+}
