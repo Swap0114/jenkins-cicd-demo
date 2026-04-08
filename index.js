@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-    res.json({ message: 'Hello from Jenkins CI/CD pipeline!', status: 'ok' });
+    res.json({ message: 'Hello from Jenkins CI/CD pipeline! Testing auto-trigger', status: 'ok' });
 });
 
 app.get('/health', (req, res) => {
